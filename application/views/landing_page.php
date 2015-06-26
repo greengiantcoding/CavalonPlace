@@ -4,6 +4,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 <html lang="en">
 <head>
 	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Welcome to CodeIgniter</title>
 	<script src="/assets/js/JQueryLib.js"></script>
 	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
@@ -20,7 +21,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 	<div id='container'>
 
 <!-- START NAVBAR -->
-		<nav class="navbar navbar-default centerText" id='navbar'>
+		<nav class="navbar navbar-default navbar-responsive centerText" id='navbar'>
 		  <div class="container-fluid">
 		    <!-- Brand and toggle get grouped for better mobile display -->
 		    <div class="navbar-header">

@@ -66,6 +66,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 		    </div><!-- /.navbar-collapse -->
 		  </div><!-- /.container-fluid -->
 		</nav>
+
+		<!-- Main Body Content -->
+			<h2 class='centerText'>Available Space Here</h2>
+		<!-- END: Main Body Content -->
 	</div> <!-- END Container -->
 </body>
 </html>

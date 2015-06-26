@@ -13,6 +13,19 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 		.centerText{
 			text-align: center;
 		}
+		@media(max-width: 600px){
+			#frontImage{
+				width: 100%;
+			}
+		}
+
+		@media(min-width: 601px){
+			#frontImage{
+				width: 80%;
+				margin-left: 10%;
+			}
+		}
+
 	</style>
 </head>
 <body>
@@ -78,8 +91,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 		<h4>2021 NW Myhre Rd</h4>
 		<h4>Silverdale, WA</h4>
 	</div>
-	<div class='row'>
-		<img src="/assets/images/cavalon_front.jpg" style='width:100%;'>
+	<div class='row' id='imageDiv'>
+		<img src="/assets/images/cavalon_front.jpg" id='frontImage'>
 	</div>
 	<div class='row centerText'>
 	</div>	

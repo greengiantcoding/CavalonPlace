@@ -75,11 +75,14 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 <!-- START MAIN BODY -->
 	<div class='row centerText'>
 		<h1>Cavalon Place</h1>
+		<h4>2021 NW Myhre Rd</h4>
 		<h4>Silverdale, WA</h4>
 	</div>
 	<div class='row'>
 		<img src="/assets/images/cavalon_front.jpg" style='width:100%;'>
 	</div>
+	<div class='row centerText'>
+	</div>	
 
 <!-- END MAIN BODY -->
 
